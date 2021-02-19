@@ -10,7 +10,7 @@ client.on('message' , msg => {
   if (msg.content === "+patchnotes") {
     const polembed = new Discord.MessageEmbed()
     .setColor('#29e684')
-    .setTitle('PatchNotes Pro 1.5.3')
+    .setTitle('PatchNotes 1.5.3')
     .setAuthor('@d3ca')
     .setDescription('1/27/2021')
     .addFields(
